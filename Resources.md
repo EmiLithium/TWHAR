@@ -14,3 +14,12 @@
 * [Conference slides](https://events.ccc.de/congress/2011/Fahrplan/attachments/2019_28C3-authorship.pdf)
 * [2012 paper](https://www.cs.drexel.edu/~sa499/papers/anonymouth.pdf)
 * [GitHub](https://github.com/psal/jstylo)
+
+## `stylo` R package
+* [Computational Stylistics Group](https://sites.google.com/site/computationalstylistics/stylo)
+* [Video analysis of Chinese texts](https://www.youtube.com/watch?v=jZ532ucT6Ik)
+* These are all the same paper: Stylometry with R: A Package for Computational Text Analysis. Maciej Eder, Jan Rybicki and Mike Kestemont, The R Journal (2016) 8:1, pages 107-121.
+  - [x](https://journal.r-project.org/archive/2016/RJ-2016-007/index.html)
+  - [x](https://journal.r-project.org/archive/2016/RJ-2016-007/RJ-2016-007.pdf)
+  - [x](https://journal.r-project.org/archive/2016-1/eder-rybicki-kestemont.pdf)
+* [CRAN-R documentation](https://cran.r-project.org/web/packages/stylo/stylo.pdf)
