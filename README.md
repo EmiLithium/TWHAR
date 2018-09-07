@@ -4,10 +4,9 @@ We can collaborate here to collect writing samples on some of the TWH Senior Adm
 
 ## Workflow
 
-We might want to work on SA's individually so we don't get any duplicate writing samples. If you want to start on a new SA, create a folder named using that SA's initials. We may need to discuss additional identifiers on identical initials.
+We might want to work on SA's individually so we don't get any duplicate writing samples. You can assign an SA to yourself in the `Issues` tab.
 
-1. Create a folder for your SA if it doesn't exist already. *e.g. "RP"* 
-1. Upload writing samples as `.txt` files into the corresponding folder. Make sure the full contents of the `.txt` file is a sample of the suspect's writing. 
+1. Upload writing samples as `.txt` files into the SA's corresponding folder. Make sure the full contents of the `.txt` file is a sample of the suspect's writing. 
 1. If you have observations or questions on your SA, you can leave comments in their thread in the `Issues` tab.
 1. Once you have 6500 words collected on your SA, you can close their issue in the `Issues` tab. Honestly, if you can only find 2000 words that might be okay. We can take that case-by-case.
 
