@@ -19,7 +19,7 @@
 * [Computational Stylistics Group](https://sites.google.com/site/computationalstylistics/stylo)
 * [Video analysis of Chinese texts](https://www.youtube.com/watch?v=jZ532ucT6Ik)
 * These are all the same paper: Stylometry with R: A Package for Computational Text Analysis. Maciej Eder, Jan Rybicki and Mike Kestemont, The R Journal (2016) 8:1, pages 107-121.
-  - [x](https://journal.r-project.org/archive/2016/RJ-2016-007/index.html)
-  - [x](https://journal.r-project.org/archive/2016/RJ-2016-007/RJ-2016-007.pdf)
-  - [x](https://journal.r-project.org/archive/2016-1/eder-rybicki-kestemont.pdf)
+  1. [x](https://journal.r-project.org/archive/2016/RJ-2016-007/index.html)
+  1. [x](https://journal.r-project.org/archive/2016/RJ-2016-007/RJ-2016-007.pdf)
+  1. [x](https://journal.r-project.org/archive/2016-1/eder-rybicki-kestemont.pdf)
 * [CRAN-R documentation](https://cran.r-project.org/web/packages/stylo/stylo.pdf)
