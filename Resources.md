@@ -12,4 +12,5 @@
 * [Conference video](https://www.youtube.com/watch?v=-b0Ta9h62_E)
 * [Description of talk and conference (includes slides)](https://events.ccc.de/congress/2011/Fahrplan/events/4781.en.html)
 * [Conference slides](https://events.ccc.de/congress/2011/Fahrplan/attachments/2019_28C3-authorship.pdf)
+* [2012 paper](https://www.cs.drexel.edu/~sa499/papers/anonymouth.pdf)
 * [GitHub](https://github.com/psal/jstylo)
