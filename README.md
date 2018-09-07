@@ -17,4 +17,4 @@ We might want to work on SA's individually so we don't get any duplicate writing
 You don't have to but if you're paranoid you can create a branch for yourself. You'll be able to merge the branch back in later without any conflicts with the master branch.
 
 * [How to create a branch](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/)
-* [What is a branch](https://help.github.com/articles/about-branches/)
+* [What is a branch?](https://help.github.com/articles/about-branches/)
