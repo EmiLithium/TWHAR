@@ -1,6 +1,6 @@
 # Read Me
 
-We can collaborate here to collect writing samples on some of the TWH Senior Admin (SA).
+We can collaborate here to collect writing samples on some of the TWH Senior Admin (SA). Read this for workflow instructions.
 
 ## Workflow
 
