@@ -20,9 +20,13 @@ Result summary:
     -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     ASAOE.txt      | 0.000000       | 0.054545       | 0.163636       | 0.181818 +     | 0.145455       | 0.090909       | 0.109091       | 0.036364       | 0.018182       | 0.127273       | 0.072727       |
 
+Discussion: This isn't great. This was based on complexity, which is "Ratio of unique words to total number of words in the document." Obviously total number of words in documents is a terrible factor in our case.
+
 ### 8:52pm 
 
-- Features: WritePrints, Word Bigrams
+Features: WritePrints, Word Bigrams
+
+Result summary:
 
     Results:
     ========
