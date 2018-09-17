@@ -4,6 +4,8 @@ The writing samples are incomplete but let's just try it.
 
 ## September 16 2018
 
+END OF DAY SUMMARY: Ignore the 8:39pm analysis because the 9-feature set is heavily dependent on word counts per document, which is flawed for our conditions. The best one might be the 9:23pm one so far but the highest match is only 0.18 using the SMO (sequential minimal optimization) classifier. I think a good match would have been 0.25? Might have to email the creators to check that. Anyway, I definitely have to finish RL and then we'll only have 4 author sets left to populate!
+
 Number of authors in training set: 10
 
 ### 8:39pm 
