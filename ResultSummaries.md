@@ -9,7 +9,7 @@ Added `drexel_1` and `enron_demo` authors as outgroups to the problem set.
 - Feature set: WritePrints (Limited)
 - Classifier(s): SMO
 
-Result summary:
+Result summary: Author `g` from `drexel_1` had the highest match of 0.027. That's what I get for adding 63 outgroup authors to the problem set at 3am.
 
     Results:
     ========
