@@ -1,0 +1,68 @@
+============================ JStylo Analysis Output ============================
+Started analysis on 2018-09-16, 20:36:07
+Running test documents classification
+
+Training corpus:
+> BC (1 documents)
+> JD (4 documents)
+> JS (4 documents)
+> MM (4 documents)
+> RL (1 documents)
+> RP (3 documents)
+> RZ (1 documents)
+> SM (1 documents)
+> SP (3 documents)
+> modern-good-writing (1 documents)
+
+Test documents:
+> _Unknown_ (1 documents)
+
+Feature set: 9 feature-set:
+> Unique Words Count
+> Complexity
+> Sentence Count
+> Average Sentence Length
+> Average Syllables in Word
+> Gunning-Fog Readability Index
+> Character Space
+> Letter Space
+> Flesch Reading Ease Score
+
+Analyzers used:
+> edu.drexel.psal.jstylo.analyzers.WekaAnalyzer     	-C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K weka.classifiers.functions.supportVector.PolyKernel -C 250007 -E 1.0 
+
+================================================================================
+
+2018-09-16, 20:36:07 Extracting features from training corpus (using sparse representation)...
+2018-09-16, 20:36:28 done!
+
+2018-09-16, 20:36:28 Building relevant event set...2018-09-16, 20:36:28 done!
+
+2018-09-16, 20:36:28 Building attributes list...2018-09-16, 20:36:28 done!
+
+2018-09-16, 20:36:28 Creating training instances...2018-09-16, 20:36:28 done!
+
+2018-09-16, 20:36:28 Extracting features from test documents (using sparse representation)...
+2018-09-16, 20:36:28 done!
+
+Calculating InfoGain on the training set's features
+===================================================
+done!
+
+2018-09-16, 20:36:28 Starting training and testing phase...
+
+================================================================================
+
+Running analysis with Analyzer 1 out of 1:
+> Classifier: weka.classifiers.functions.SMO
+> Options:    -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K weka.classifiers.functions.supportVector.PolyKernel -C 250007 -E 1.0 
+
+2018-09-16, 20:36:28 Starting classification...
+2018-09-16, 20:36:29 done!
+
+Results:
+========
+doc \ author   | _Unknown_      | BC             | JD             | JS             | MM             | RL             | RP             | RZ             | SM             | SP             | modern-good-writing |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ASAOE.txt      | 0.000000       | 0.054545       | 0.163636       | 0.181818 +     | 0.145455       | 0.090909       | 0.109091       | 0.036364       | 0.018182       | 0.127273       | 0.072727       |
+

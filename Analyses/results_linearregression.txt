@@ -1,0 +1,127 @@
+============================ JStylo Analysis Output ============================
+Started analysis on 2018-09-16, 20:29:58
+Running test documents classification
+
+Training corpus:
+> BC (1 documents)
+> JD (4 documents)
+> JS (4 documents)
+> MM (4 documents)
+> RL (1 documents)
+> RP (3 documents)
+> RZ (1 documents)
+> SM (1 documents)
+> SP (3 documents)
+> modern-good-writing (1 documents)
+
+Test documents:
+> _Unknown_ (1 documents)
+
+Feature set: WritePrints (Limited):
+> Character count
+> Average characters per word
+> Letters
+> Top Letter bigrams
+> Top Letter trigrams
+> Digits Percentage
+> Letters Percentage
+> Uppercase Letters Percentage
+> Digits
+> Two Digit Numbers
+> Three Digit Numbers
+> Word Lengths
+> Special Characters
+> Function Words
+> Punctuation
+> POS Tags
+> POS Bigrams
+> POS Trigrams
+> Words
+> Word Bigrams
+> Word Trigrams
+> Misspelled Words
+
+Analyzers used:
+> edu.drexel.psal.jstylo.analyzers.WekaAnalyzer     	-S 0 -R 1.0E-8 
+
+================================================================================
+
+2018-09-16, 20:29:59 Extracting features from training corpus (using sparse representation)...
+2018-09-16, 20:31:50 done!
+
+2018-09-16, 20:31:50 Building relevant event set...2018-09-16, 20:31:51 done!
+
+2018-09-16, 20:31:51 Building attributes list...2018-09-16, 20:31:51 done!
+
+2018-09-16, 20:31:51 Creating training instances...2018-09-16, 20:31:57 done!
+
+2018-09-16, 20:31:57 Extracting features from test documents (using sparse representation)...
+2018-09-16, 20:31:57 done!
+
+Calculating InfoGain on the training set's features
+===================================================
+> POS-Bigrams{(PRP)-(VBP)}                             1.627764
+> POS-Tags{PDT}                                        1.175882
+> Word-Bigrams{(i)-(am)}                               1.154568
+> Word-Trigrams{(one)-(of)-(the)}                      1.095094
+> POS-Trigrams{(.)-(PRP)-(VBP)}                        1.045301
+> Letters{b}                                           1.014404
+> Letters{g}                                           1.014404
+> Top-Letter-bigrams{is}                               1.014404
+> Top-Letter-bigrams{hi}                               1.014404
+> Top-Letter-bigrams{it}                               1.014404
+> Top-Letter-bigrams{le}                               1.014404
+> Top-Letter-trigrams{ill}                             1.014404
+> Top-Letter-trigrams{his}                             1.014404
+> Function-Words{be}                                   1.014404
+> POS-Tags{.}                                          1.014404
+> POS-Tags{RB}                                         1.014404
+> POS-Tags{MD}                                         1.014404
+> POS-Bigrams{(RB)-(IN)}                               1.014404
+> POS-Trigrams{(VB)-(DT)-(NN)}                         1.014404
+> Words{be}                                            1.014404
+> Top-Letter-trigrams{you}                             0.998636
+> Word-Trigrams{(i)-(want)-(to)}                       0.945137
+> Function-Words{you}                                  0.878858
+> Words{you}                                           0.878858
+> Function-Words{what}                                 0.846601
+> Words{what}                                          0.846601
+> Word-Bigrams{(the)-(world)}                          0.845858
+> Function-Words{i}                                    0.791020
+> Words{i}                                             0.791020
+> Word-Trigrams{(in)-(the)-(world)}                    0.766763
+> Word-Trigrams{(be)-(able)-(to)}                      0.678407
+> Letters{d}                                           0.558629
+> Top-Letter-bigrams{er}                               0.558629
+> Top-Letter-bigrams{st}                               0.558629
+> Top-Letter-trigrams{ome}                             0.558629
+> Top-Letter-trigrams{ith}                             0.558629
+> Top-Letter-trigrams{ive}                             0.558629
+> Top-Letter-trigrams{nce}                             0.558629
+> Function-Words{by}                                   0.558629
+> POS-Bigrams{(NN)-(VBZ)}                              0.558629
+> POS-Bigrams{(NNS)-(.)}                               0.558629
+> POS-Bigrams{(NN)-(CC)}                               0.558629
+> POS-Bigrams{(IN)-(PRP$)}                             0.558629
+> POS-Bigrams{(PRP$)-(NN)}                             0.558629
+> Words{by}                                            0.558629
+> Misspelled-Words{free}                               0.558629
+done!
+
+2018-09-16, 20:31:57 Starting training and testing phase...
+
+================================================================================
+
+Running analysis with Analyzer 1 out of 1:
+> Classifier: weka.classifiers.functions.LinearRegression
+> Options:    -S 0 -R 1.0E-8 
+
+2018-09-16, 20:31:57 Starting classification...
+2018-09-16, 20:31:57 done!
+
+Results:
+========
+doc \ author   | _Unknown_      | BC             | JD             | JS             | MM             | RL             | RP             | RZ             | SM             | SP             | modern-good-writing |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ASAOE.txt      |
+
