@@ -24,7 +24,7 @@ Discussion: This isn't great. This was based on complexity, which is "Ratio of u
 
 ### 8:52pm 
 
-Features: WritePrints, Word Bigrams
+Features: WritePrints (limited), Word Bigrams
 
 Result summary:
 
@@ -33,4 +33,18 @@ Result summary:
     doc \ author   | _Unknown_      | BC             | JD             | JS             | MM             | RL             | RP             | RZ             | SM             | SP             | modern-good-writing |
     -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     ASAOE.txt      | 0.000000       | 0.054545       | 0.163636       | 0.145455       | 0.127273       | 0.109091       | 0.090909       | 0.036364       | 0.018182       | 0.181818 +     | 0.072727       |
+
+### 9:23
+
+This one is based on word frequencies and not bigrams. And the WritePrint unlimited feature set. And it took a really long time.
+
+Features: WritePrints, Words
+
+Result summary:
+
+    Results:
+    ========
+    doc \ author   | _Unknown_      | BC             | JD             | JS             | MM             | RL             | RP             | RZ             | SM             | SP             | modern-good-writing |
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    ASAOE.txt      | 0.000000       | 0.054545       | 0.145455       | 0.109091       | 0.127273       | 0.181818 +     | 0.090909       | 0.036364       | 0.018182       | 0.163636       | 0.072727       |
 
