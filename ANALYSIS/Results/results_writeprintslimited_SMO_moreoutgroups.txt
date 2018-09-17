@@ -1,0 +1,170 @@
+============================ JStylo Analysis Output ============================
+Started analysis on 2018-09-17, 02:57:54
+Running test documents classification
+
+Training corpus:
+> BC (1 documents)
+> JD (4 documents)
+> JS (4 documents)
+> MM (4 documents)
+> RL (1 documents)
+> RP (3 documents)
+> RZ (1 documents)
+> SM (1 documents)
+> SP (3 documents)
+> a (7 documents)
+> allen-p (13 documents)
+> arnold-j (13 documents)
+> b (7 documents)
+> bass-e (13 documents)
+> beck-s (13 documents)
+> c (9 documents)
+> campbell-l (13 documents)
+> cash-m (13 documents)
+> cm (11 documents)
+> d (9 documents)
+> dasovich-j (13 documents)
+> davis-d (13 documents)
+> delainey-d (13 documents)
+> dickson-s (13 documents)
+> dorland-c (13 documents)
+> e (9 documents)
+> f (9 documents)
+> farmer-d (13 documents)
+> fossum-d (13 documents)
+> g (8 documents)
+> gay-r (13 documents)
+> germany-c (13 documents)
+> giron-d (13 documents)
+> grigsby-m (13 documents)
+> guzman-m (13 documents)
+> h (8 documents)
+> haedicke-m (13 documents)
+> hain-m (13 documents)
+> horton-s (13 documents)
+> hyvl-d (13 documents)
+> jones-t (13 documents)
+> k (9 documents)
+> kaminski-v (13 documents)
+> kean-s (13 documents)
+> kuykendall-t (13 documents)
+> lavorato-j (13 documents)
+> lenhart-m (13 documents)
+> lokay-m (13 documents)
+> love-p (13 documents)
+> m (8 documents)
+> mann-k (13 documents)
+> mcconnell-m (13 documents)
+> mclaughlin-e (13 documents)
+> mims-thurston-p (13 documents)
+> modern-good-writing (1 documents)
+> neal-s (13 documents)
+> nemec-g (13 documents)
+> p (10 documents)
+> pereira-s (13 documents)
+> perlingiere-d (13 documents)
+> rogers-b (13 documents)
+> ruscitti-k (13 documents)
+> s (9 documents)
+> sager-e (13 documents)
+> sanders-r (13 documents)
+> scott-s (13 documents)
+> shackleton-s (13 documents)
+> shankman-j (13 documents)
+> smith-m (13 documents)
+> symes-k (13 documents)
+> taylor-m (13 documents)
+> tholt-j (13 documents)
+> weldon-c (13 documents)
+
+Test documents:
+> _Unknown_ (1 documents)
+
+Feature set: WritePrints (Limited):
+> Character count
+> Average characters per word
+> Letters
+> Top Letter bigrams
+> Top Letter trigrams
+> Digits Percentage
+> Letters Percentage
+> Uppercase Letters Percentage
+> Digits
+> Two Digit Numbers
+> Three Digit Numbers
+> Word Lengths
+> Special Characters
+> Function Words
+> Punctuation
+> POS Tags
+> POS Bigrams
+> POS Trigrams
+> Words
+> Word Bigrams
+> Word Trigrams
+> Misspelled Words
+
+Analyzers used:
+> edu.drexel.psal.jstylo.analyzers.WekaAnalyzer     	-C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K weka.classifiers.functions.supportVector.PolyKernel -C 250007 -E 1.0 
+
+================================================================================
+
+2018-09-17, 02:57:54 Extracting features from training corpus (using sparse representation)...
+2018-09-17, 03:02:46 done!
+
+2018-09-17, 03:02:46 Building relevant event set...2018-09-17, 03:02:48 done!
+
+2018-09-17, 03:02:48 Building attributes list...2018-09-17, 03:02:49 done!
+
+2018-09-17, 03:02:49 Creating training instances...2018-09-17, 03:03:07 done!
+
+2018-09-17, 03:03:07 Extracting features from test documents (using sparse representation)...
+2018-09-17, 03:03:08 done!
+
+Calculating InfoGain on the training set's features
+===================================================
+> Letters Percentage                                   0.733565
+> Uppercase Letters Percentage                         0.517430
+> Average characters per word                          0.504657
+> Character count                                      0.499860
+> Top-Letter-trigrams{you}                             0.474840
+> Top-Letter-trigrams{nro}                             0.472408
+> Function-Words{you}                                  0.470246
+> Words{you}                                           0.470246
+> Top-Letter-trigrams{enr}                             0.460208
+> POS-Tags{NNP}                                        0.457751
+> POS-Tags{JJ}                                         0.437796
+> Words{thanks}                                        0.436675
+> POS-Bigrams{(IN)-(DT)}                               0.384533
+> POS-Bigrams{(IN)-(JJ)}                               0.335150
+> Word-Trigrams{(north)-(america)-(corp)}              0.256053
+> Word-Bigrams{(america)-(corp)}                       0.254879
+> Three-Digit-Numbers{646}                             0.248953
+> Three-Digit-Numbers{349}                             0.236153
+> Two-Digit-Numbers{34}                                0.225041
+> Two-Digit-Numbers{38}                                0.205068
+> Word-Trigrams{(corp)-(1400)-(smith)}                 0.202840
+> Word-Trigrams{(america)-(corp)-(1400)}               0.201767
+> Three-Digit-Numbers{140}                             0.196902
+> Word-Trigrams{(1400)-(smith)-(street)}               0.196902
+> Word-Trigrams{(smith)-(street)-(eb)}                 0.196902
+> Word-Trigrams{(houston)-(texas)-(77002)}             0.196902
+done!
+
+2018-09-17, 03:03:10 Starting training and testing phase...
+
+================================================================================
+
+Running analysis with Analyzer 1 out of 1:
+> Classifier: weka.classifiers.functions.SMO
+> Options:    -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K weka.classifiers.functions.supportVector.PolyKernel -C 250007 -E 1.0 
+
+2018-09-17, 03:03:10 Starting classification...
+2018-09-17, 03:03:39 done!
+
+Results:
+========
+doc \ author   | _Unknown_      | BC             | JD             | JS             | MM             | RL             | RP             | RZ             | SM             | SP             | a              | allen-p        | arnold-j       | b              | bass-e         | beck-s         | c              | campbell-l     | cash-m         | cm             | d              | dasovich-j     | davis-d        | delainey-d     | dickson-s      | dorland-c      | e              | f              | farmer-d       | fossum-d       | g              | gay-r          | germany-c      | giron-d        | grigsby-m      | guzman-m       | h              | haedicke-m     | hain-m         | horton-s       | hyvl-d         | jones-t        | k              | kaminski-v     | kean-s         | kuykendall-t   | lavorato-j     | lenhart-m      | lokay-m        | love-p         | m              | mann-k         | mcconnell-m    | mclaughlin-e   | mims-thurston-p | modern-good-writing | neal-s         | nemec-g        | p              | pereira-s      | perlingiere-d  | rogers-b       | ruscitti-k     | s              | sager-e        | sanders-r      | scott-s        | shackleton-s   | shankman-j     | smith-m        | symes-k        | taylor-m       | tholt-j        | weldon-c       |
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ASAOE.txt      | 0.000000       | 0.001111       | 0.017771       | 0.017401       | 0.019252       | 0.005553       | 0.002962       | 0.000740       | 0.000370       | 0.021103       | 0.024806       | 0.008145       | 0.017401       | 0.022954       | 0.005924       | 0.018882       | 0.019252       | 0.021844       | 0.011107       | 0.015550       | 0.025176       | 0.021474       | 0.011107       | 0.014439       | 0.007034       | 0.013328       | 0.026657       | 0.025546       | 0.004813       | 0.018141       | 0.027027 +     | 0.017771       | 0.007775       | 0.007405       | 0.008886       | 0.010367       | 0.023695       | 0.013328       | 0.020363       | 0.015180       | 0.021103       | 0.016660       | 0.025916       | 0.008515       | 0.022584       | 0.003702       | 0.011107       | 0.004073       | 0.004073       | 0.010367       | 0.026287       | 0.020363       | 0.015180       | 0.002592       | 0.012218       | 0.001481       | 0.006664       | 0.014809       | 0.024435       | 0.005183       | 0.002221       | 0.009256       | 0.011477       | 0.023695       | 0.006294       | 0.017031       | 0.019993       | 0.001851       | 0.013328       | 0.012218       | 0.003702       | 0.023695       | 0.016290       | 0.009996       |
+
