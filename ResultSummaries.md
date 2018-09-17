@@ -2,12 +2,14 @@
 
 The writing samples are incomplete but let's just try it.
 
-## September 17 2018 **HAPPY CONSTITUTION DAY AND WEEK!**
+## September 17 2018 (HAPPY CONSTITUTION DAY AND WEEK!)
 
 Added `drexel_1` and `enron_demo` authors as outgroups to the problem set.
 
 - Feature set: WritePrints (Limited)
 - Classifier(s): SMO
+
+Result summary:
 
     Results:
     ========
